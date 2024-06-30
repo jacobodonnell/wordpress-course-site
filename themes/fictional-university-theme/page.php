@@ -16,7 +16,7 @@ while (have_posts()) {
         <a class="metabox__blog-home-link" href="<?= get_permalink($theParent) ?>"><i class="fa fa-home" aria-hidden="true"></i> Back to <?php echo get_the_title($theParent) ?></a> <span class="metabox__main"><?php the_title() ?></span>
       </p>
     </div>
-  <? }
+  <?php }
   ?>
 
 
